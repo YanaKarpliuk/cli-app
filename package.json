@@ -1,0 +1,29 @@
+{
+  "name": "@yanakarpliuk/cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "esm": "^3.2.25",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "contacts"
+  ],
+  "author": "",
+  "license": "ISC"
+}
